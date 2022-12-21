@@ -1,0 +1,14 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "allowJs": true,
+    "alwaysStrict": true, // 'use strict'
+    "checkJs": true,
+    "moduleResolution": "node",
+    "noEmit": true, // no output file (just checker)
+    "noImplicitAny": false, // hard mode: OFF
+    "resolveJsonModule": true, // require(*.json)
+    "skipLibCheck": true,
+    "target": "es6"
+  }
+}

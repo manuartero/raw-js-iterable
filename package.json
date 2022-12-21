@@ -1,0 +1,39 @@
+{
+  "name": "@rawjs/iterable",
+  "version": "1.0.0",
+  "description": "Make an object iterable implementing iterable protocol ",
+  "author": "manutero.developer@gmail.com",
+  "main": "index.js",
+  "keywords": [
+    "iterable",
+    "iterator",
+    "prototype"
+  ],
+  "type": "module",
+  "scripts": {
+    "test": "NODE_ENV=test node --experimental-vm-modules ./node_modules/.bin/jest --verbose",
+    "lint": "eslint .",
+    "types": "tsc --build tsconfig.json",
+    "blue-ball": "npm run lint && npm run types && npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manuartero/rawjs-iterable.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manuartero/rawjs-iterable/issues"
+  },
+  "homepage": "https://github.com/manuartero/rawjs-iterable#readme",
+  "devDependencies": {
+    "@types/jest": "^29.2.4",
+    "eslint": "^8.30.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^27.1.7",
+    "eslint-plugin-json": "^3.1.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "jest": "^29.3.1"
+  }
+}
