@@ -1,5 +1,5 @@
 {
-  "name": "@rawjs/iterable",
+  "name": "@raw-js/iterable",
   "version": "1.0.0",
   "description": "Make an object iterable implementing iterable protocol ",
   "author": "manutero.developer@gmail.com",
@@ -18,13 +18,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/manuartero/rawjs-iterable.git"
+    "url": "git+https://github.com/manuartero/raw-js-iterable.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/manuartero/rawjs-iterable/issues"
+    "url": "https://github.com/manuartero/raw-js-iterable/issues"
   },
-  "homepage": "https://github.com/manuartero/rawjs-iterable#readme",
+  "homepage": "https://github.com/manuartero/raw-js-iterable#readme",
   "devDependencies": {
     "@types/jest": "^29.2.4",
     "eslint": "^8.30.0",

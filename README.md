@@ -1,9 +1,9 @@
-# `@rawjs/iterable`
+# `@raw-js/iterable`
 
 > Make an object iterable implementing `@@iterable` protocol
 
 ```js
-import { iterable } from "@rawjs/iterable";
+import { iterable } from "@raw-js/iterable";
 
 const obj = {}
 iterable(obj) // now obj is iterable
@@ -12,7 +12,7 @@ iterable(obj) // now obj is iterable
 ## Examples
 
 ```js
-import { iterable } from "@rawjs/iterable";
+import { iterable } from "@raw-js/iterable";
 
 const obj = {
   a: 100,
